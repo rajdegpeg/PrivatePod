@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'PrivatePod_Example' do
+  pod 'PrivatePod', :path => '../'
+
+  target 'PrivatePod_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
