@@ -28,7 +28,9 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/rajdegpeg/PrivatePod.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '9.0'
+  s.ios.deployment_target = '13.0'
+#  s.Swift.version = '5.0'
+  s.swift_version = '5.0'
 
   s.source_files = 'PrivatePod/Classes/**/*'
   
@@ -39,4 +41,11 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+#  s.dependency 'Alamofire'
+  s.dependency 'Socket.IO-Client-Swift', '~> 16.0'
+  s.dependency 'MBProgressHUD', '~> 1.2'
+  s.dependency 'Kingfisher', '~> 7.0'
+  s.dependency 'ObjectMapper', '~> 4.2'
+  s.dependency 'GrowingTextView', '0.7.2'
+  s.dependency 'IQKeyboardManagerSwift'
 end
