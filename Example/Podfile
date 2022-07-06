@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'PrivatePod_Example' do
-  pod 'PrivatePod', :path => '../'
+  pod 'RajKPrivatePod', :path => '../'
 
   target 'PrivatePod_Tests' do
     inherit! :search_paths
