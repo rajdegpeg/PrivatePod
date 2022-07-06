@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'RajKPrivatePod'
-  s.version          = '0.1.4'
+  s.version          = '0.0.1'
   s.summary          = 'A short description of RajKPrivatePod.'
 
 # This description is used to generate tags and improve search results.
@@ -46,10 +46,10 @@ TODO: Add long description of the pod here.
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
 #  s.dependency 'Alamofire'
-  s.dependency 'Socket.IO-Client-Swift', '~> 16.0'
-  s.dependency 'MBProgressHUD', '~> 1.2'
+  #s.dependency 'Socket.IO-Client-Swift', '~> 16.0'
+  #s.dependency 'MBProgressHUD', '~> 1.2'
   s.dependency 'Kingfisher', '~> 7.0'
-  s.dependency 'ObjectMapper', '~> 4.2'
-  s.dependency 'GrowingTextView', '0.7.2'
-  s.dependency 'IQKeyboardManagerSwift'
+  #s.dependency 'ObjectMapper', '~> 4.2'
+  #s.dependency 'GrowingTextView', '0.7.2'
+  #s.dependency 'IQKeyboardManagerSwift'
 end
