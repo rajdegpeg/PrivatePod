@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PrivatePod'
-  s.version          = '0.1.2'
+  s.version          = '0.1.3'
   s.summary          = 'A short description of PrivatePod.'
 
 # This description is used to generate tags and improve search results.
@@ -37,6 +37,10 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'PrivatePod' => ['PrivatePod/Assets/*.png']
   # }
+  
+  s.resource_bundles = {
+    'PrivatePod' => ['PrivatePod/Assets/Images/*.png',  'PrivatePod/Assets/*.xib', 'PrivatePod/Classes/*.xib', 'PrivatePod/Assets/Storyboard.storyboard']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

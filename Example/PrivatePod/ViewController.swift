@@ -29,6 +29,10 @@ class ViewController: UIViewController {
     @objc func accessPod() {
         let manager = DegpegManager.init(key: "1234", userId: "", userName: "", influencerID: "")
        print("Is Pod Authorized", manager.isPodAuthorized())
+        
+       let vc = manager.temp()
+        vc.modalPresentationStyle = .fullScreen
+        self.present(vc, animated: true)
     }
 }
 
